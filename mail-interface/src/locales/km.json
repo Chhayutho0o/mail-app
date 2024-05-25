@@ -1,0 +1,82 @@
+{
+  "flash": {
+    "logout": "You have successfully logout."
+  },
+  "auth": {
+    "loading": "កំពុងរង់ចាំ",
+    "login": "ចូល",
+    "logout": "ចាកចេញ",
+    "login_admin": "ចូលជាអ្នកគ្រប់គ្រង",
+    "email": "អ៊ីមែល",
+    "password": "ពាក្យសម្ងាត់",
+    "back_home": "ត្រឡប់ទៅទំព័រដើម",
+    "enter_email": "​ប​ញ្ជូ​ល​អាសយដ្ឋាន​អ៊ីមែល​",
+    "enter_password": "ប​ញ្ជូ​លពាក្យសម្ងាត់",
+    "validation": {
+      "email": {
+        "required": "ទាមទារអ៊ីមែល",
+        "invalid": "អ៊ីមែលមិនត្រឹមត្រូវ"
+      },
+      "type": {
+        "required": "ទាមទារប្រភេទអ្នកប្រើប្រាស់"
+      },
+      "password": {
+        "required": "ទាមទារពាក្យសម្ងាត់",
+        "min": "ពាក្យសម្ងាត់ត្រូវតែលើសពី 8 តួអក្សរ"
+      }
+    }
+  },
+  "sidebar": {
+    "dashboard": "ផ្ទាំងគ្រប់គ្រង",
+    "settings": "ការកំណត់",
+    "roles": "តួនាទី",
+    "users": "អ្នកប្រើប្រាស់",
+    "purchases": "ការទិញ",
+    "Configurations": "ការកំណត់",
+    "assets": "ទ្រព្យសកម្ម",
+    "rewards": "រង្វាន់",
+    "wallets": "កាបូបនីមួយៗ",
+    "sale_management": "ការគ្រប់គ្រងលក់",
+    "referrals": "កូដយូនីការបញ្ជាទិញ",
+    "games": "ល្បែង",
+    "posts": "ការប្រកាស",
+    "campaigns": "សេចក្ដីប្រកាស"
+  },
+  "roles": {
+    "name": "ឈ្មោះ",
+    "action": "សកម្មភាព",
+    "id": "លេខសម្គាល់",
+    "create_role": "បង្កើតតួនាទី",
+    "update_role": "ធ្វើបច្ចុប្បន្នភាពតួនាទី",
+    "cancel": "បោះបង់",
+    "save": "រក្សាទុក",
+    "edit": "កែសម្រួល",
+    "term": "រយៈពេល",
+    "role_privilege": "ឯកសិទ្ធិតួនាទី",
+    "select": "ជ្រើសរើស​ទាំងអស់",
+    "role": "តួនាទី",
+    "role_info": "ព័ត៌មានអំពីតួនាទី"
+  },
+  "posts": {
+    "id": "ID",
+    "title": "Title",
+    "description": "Description",
+    "action": "Action",
+    "status": "Status",
+    "info": "Post info",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create_form": "Create Post",
+    "edit_form": "Edit Post",
+    "short_description": "Short description",
+    "created_at": "Created at",
+    "name": "Name",
+    "image": "Image",
+    "username": "Username",
+    "comment_count": "Comment count",
+    "like_count": "Like count",
+    "dislike_count": "Dislike count",
+    "game": "Game",
+    "content":"Content"
+  }
+}

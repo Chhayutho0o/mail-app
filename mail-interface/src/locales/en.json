@@ -1,0 +1,344 @@
+{
+  "flash": {
+    "logout": "You have successfully logout."
+  },
+  "auth": {
+    "loading": "Loading...",
+    "login": "Login",
+    "logout": "Logout",
+    "login_admin": "LOGIN AS ADMIN",
+    "email": "Email",
+    "password": "Password",
+    "back_home": "Back to homepage",
+    "enter_email": "Enter your email",
+    "enter_password": "Enter your password",
+    "login_success": "Login successfully",
+    "logout_success": "Logout successfully",
+    "login_fail": "Login fail",
+    "validation": {
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid email"
+      },
+      "type": {
+        "required": "Type is required"
+      },
+      "password": {
+        "required": "Password is required",
+        "min": "Password must be more than 8 characters"
+      }
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "settings": "Setting",
+    "roles": "Roles",
+    "users": "Users",
+    "purchases": "Purchases",
+    "configurations": "Configurations",
+    "assets": "Assets",
+    "rewards": "Rewards",
+    "wallets": "Wallets",
+    "sale_management": "Sale Management",
+    "referrals": "Referrals",
+    "games": "Games",
+    "tags": "Tags",
+    "news": "News",
+    "posts": "Posts",
+    "campaigns": "Campaigns",
+    "categories": "Categories",
+    "subscriptions": "Subscriptions",
+    "members": "Members",
+    "chains": "Chains"
+  },
+  "roles": {
+    "name": "Name",
+    "action": "Action",
+    "id": "ID",
+    "create_role": "Create Role",
+    "update_role": "Update Role",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "term": "Term",
+    "role_privilege": "Role privileges",
+    "select": "Select All",
+    "status": "Status",
+    "role": "Role",
+    "role_info": "Role info"
+  },
+  "games": {
+    "id": "ID",
+    "type": "Type",
+    "logo": "Logo",
+    "cover": "Cover",
+    "description": "Description",
+    "action": "Action",
+    "status": "Status",
+    "name": "Name",
+    "info": "Game info",
+    "rate_count": "Rate count",
+    "review_count": "Review count",
+    "create_form": "Create Game",
+    "edit_form": "Edit Game",
+    "cancel": "Cancel",
+    "save": "Save",
+    "tags": "Tags"
+  },
+  "tags": {
+    "id": "ID",
+    "name": "Name",
+    "action": "Action",
+    "status": "Status",
+    "info": "Tag info",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create_form": "Create Tag",
+    "edit_form": "Edit Tag"
+  },
+  "news": {
+    "id": "ID",
+    "title": "Title",
+    "description": "Description",
+    "action": "Action",
+    "status": "Status",
+    "info": "News info",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create_form": "Create News",
+    "edit_form": "Edit News",
+    "short_description": "Short description",
+    "created_at": "Created at",
+    "name": "Name",
+    "image": "Image",
+    "games": "Game",
+    "game": "Game"
+  },
+  "posts": {
+    "id": "ID",
+    "title": "Title",
+    "description": "Description",
+    "action": "Action",
+    "status": "Status",
+    "info": "Post info",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create_form": "Create Post",
+    "edit_form": "Edit Post",
+    "short_description": "Short description",
+    "created_at": "Created at",
+    "name": "Name",
+    "image": "Image",
+    "username": "Username",
+    "comment_count": "Comment count",
+    "like_count": "Like count",
+    "dislike_count": "Dislike count",
+    "game": "Game",
+    "content": "Content"
+  },
+  "users": {
+    "id": "ID",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "action": "Action",
+    "info": "User info",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create_form": "Create User",
+    "edit_form": "Edit User",
+    "password": "Password",
+    "confirm_password": "Confirm password",
+    "avatar": "Avatar",
+    "phone": "Phone",
+    "address": "Address",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "gender": "Gender",
+    "profile": "Profile",
+    "user_info": "User info",
+    "username": "Username",
+    "tab_title": {
+      "post": "Posts",
+      "review": "Reviews",
+      "launchpad": "Launchpads",
+      "subscription": "Subscriptions"
+    }
+  },
+  "campaigns": {
+    "id": "ID",
+    "name": "Name",
+    "description": "Description",
+    "status": "Status",
+    "info": "Campaign info",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create_form": "Create Campaign",
+    "edit_form": "Edit Campaign",
+    "short_description": "Short description",
+    "created_at": "Created at",
+    "image": "Image",
+    "games": "Games",
+    "type": "Type",
+    "start_date": "Start date",
+    "end_date": "End date",
+    "price": "Price",
+    "available_quantity": "Available quantity",
+    "cover": "Cover",
+    "action": "Action",
+    "username": "Username",
+    "status_label": {
+      "pending": "Pending",
+      "public": "Public",
+      "unpublish": "Unpublish",
+      "all": "All"
+    },
+    "validation": {
+      "name": {
+        "required": "Name is required"
+      },
+      "image": {
+        "required": "Image is required",
+        "unsupport_format": "Unsupported file format"
+      },
+      "cover": {
+        "required": "Cover is required",
+        "unsupport_format": "Unsupported file format"
+      },
+      "available_quantity": {
+        "required": "Available quantity is required"
+      },
+      "description": {
+        "required": "Description is required"
+      },
+      "price": {
+        "required": "Price is required"
+      },
+      "started_at": {
+        "required": "Started at is required"
+      },
+      "ended_at": {
+        "required": "Ended at is required",
+        "greater": "Ended date should be greater than started date"
+      }
+    }
+  },
+  "filter": {
+    "search": "Search",
+    "clear": "Clear"
+  },
+  "reviews": {
+    "id": "ID",
+    "content": "Content",
+    "rate": "Rate",
+    "like_count": "Like count",
+    "dislike_count": "Dislike count",
+    "username": "Username",
+    "created_at": "Created at",
+    "action": "Action"
+  },
+  "categories": {
+    "id": "ID",
+    "name": "Name",
+    "name_jp": "Name Japanese",
+    "action": "Action",
+    "status": "Status",
+    "info": "Category info",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create_form": "Create Category",
+    "edit_form": "Edit Category",
+    "status_label": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "validation": {
+      "name": {
+        "required": "Name is Required"
+      },
+      "name_jp": {
+        "required": "Name Japanese is Required"
+      },
+      "status": {
+        "required": "Status is Required"
+      }
+    }
+  },
+  "subscriptions": {
+    "id": "ID",
+    "username": "Username",
+    "started_at": "Started at",
+    "ended_at": "Ended at",
+    "created_at": "Created at"
+  },
+  "members": {
+    "id": "ID",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "action": "Action",
+    "info": "Member info",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create_form": "Create Member",
+    "edit_form": "Edit Member",
+    "password": "Password",
+    "confirm_password": "Confirm password",
+    "profile": "Profile",
+    "member_info": "Member info",
+    "username": "Username",
+    "created_at": "Created at",
+    "search_options": "Search Options",
+    "status_label": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "validation": {
+    "name": {
+      "required": "Name is required"
+    },
+    "email": {
+      "required": "Email is required",
+      "invalid": "Invalid email",
+      "exist": "Email already exist"
+    },
+    "password": {
+      "required": "Password is required",
+      "min": "Password must be more than 8 characters"
+    },
+    "confirm_password": {
+      "required": "Confirm Password is Required",
+      "match": "Confirm password must match"
+    },
+    "role_id": {
+      "required": "Role is required"
+    }
+  },
+  "chains": {
+    "id": "ID",
+    "name": "Name",
+    "chain_id": "Chain id",
+    "currency": "Currency",
+    "image": "Image",
+    "explorer_url": "Explorer URL",
+    "action": "Action",
+    "chain": "Chain",
+    "created_at": "Created at",
+    "info": "Chain info",
+    "create_form": "Create Chain",
+    "edit_form": "Edit Chain",
+    "cancel": "Cancel",
+    "save": "Save",
+    "validation": {
+      "name": "Name is required",
+      "chain_id": "Chain id is required",
+      "currency": "Currency is required",
+      "explorer_url": "Explorer URL is required"
+    }
+  }
+}
